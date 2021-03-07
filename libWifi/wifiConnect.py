@@ -8,7 +8,7 @@ wlan = WLAN(mode=WLAN.STA)
 pycom.heartbeat(False)
 
 def connectWifi():
-    wlan.connect(ssid='telenet-4D87F74', auth=(WLAN.WPA2, 'x2UcakjTsryz'))
+    wlan.connect(ssid='SSID', auth=(WLAN.WPA2, 'Password'))
     while not wlan.isconnected():
         pycom.rgbled(0xFF0000)
     print("WiFi connected succesfully")
