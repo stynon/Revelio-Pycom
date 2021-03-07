@@ -1,9 +1,9 @@
 import request
 import time
 
-username = 'stynon'
-feed_name = 'ttn'
-aio_key = 'aio_ATJi25ki7z8WfIOUlXww9IoKJsS2'
+username = 'username'
+feed_name = 'feed_name'
+aio_key = 'aio_key'
 url = 'https://io.adafruit.com/api/v2/' + username + '/feeds/' + feed_name + '/data'
 
 def sendDataWifi(data):
