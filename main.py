@@ -5,7 +5,7 @@ import time
 import wifiAdafruit
 import request
 
-
+#use this for datasending over loraWan
 loraWan.loraConnect()
 ultrasonic.defuart()
 while True:
@@ -15,6 +15,7 @@ while True:
     print(distance)
     time.sleep(10)
 
+#use this for datasending over wifi
 #wifiConnect.connectWifi()
 #ultrasonic.defuart()
 #while True:
